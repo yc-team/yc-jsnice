@@ -1,6 +1,6 @@
 {
   "name": "yc-jsnice",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "a node tool for jsnice in yc",
   "main": "index.js",
   "scripts": {
