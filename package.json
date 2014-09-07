@@ -1,13 +1,13 @@
 {
   "name": "yc-jsnice",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "a node tool for jsnice in yc",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "jsnice": "./bin/yc-jsnice"
+    "jsnice": "./bin/yc_jsnice"
   },
   "repository": {
     "type": "git",
