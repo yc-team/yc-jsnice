@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+//use colorful's toxic mix string object
+require('colorful').toxic();
+
+//read process.argv
+if (!process.argv[2]) {
+
+  console.log('jsnice ~ ' + require('../package.json').version.green);
+
+  console.log('It is a node tool for jsnice in yc for command line'.grey);
+  
+  console.log('  $ '.cyan + 'jsnice someword');
+
+  process.exit(-1);
+}
+
+var jsnice = require('../index');
+
+jsnice(process.argv.slice(2).join(' '));

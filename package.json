@@ -1,0 +1,27 @@
+{
+  "name": "yc-jsnice",
+  "version": "0.0.1",
+  "description": "a node tool for jsnice in yc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yc-team/yc-jsnice.git"
+  },
+  "dependencies": {
+    "request" : "2.34.0",
+    "colorful" : "2.1.0"
+  },
+  "keywords": [
+    "yc",
+    "tool",
+    "jsnice"
+  ],
+  "author": "zhangyaochun",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/yc-team/yc-jsnice/issues"
+  }
+}
